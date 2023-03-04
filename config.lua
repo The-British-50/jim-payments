@@ -42,7 +42,7 @@ Config = {
 						-- This doesn't affect Cash payments as they by default use confirmation now
 						-- This is helpful for phones that don't support invoices well
 
-	PhoneType = "qb", -- Change this setting to make invoices work with your phone script [still testing this currently]
+	PhoneType = "gks", -- Change this setting to make invoices work with your phone script [still testing this currently]
 						-- "qb" for qb-phone
 						-- "gks"" for GKSPhone
 
@@ -52,7 +52,7 @@ Config = {
 	TicketSystemAll = true, -- Enable this to give tickets to all workers clocked in
 
 	Commission = true, -- Set this to true to enable Commissions and give the person charging a percentage of the total
-	CommissionAll = false, -- Set this to true to give commission to workers clocked in
+	CommissionAll = true, -- Set this to true to give commission to workers clocked in
 	CommissionDouble = false, -- Set this to true if you want the person charging to get double Commission
 	CommissionLimit = false,	-- If true, this limits the Commission to only be given if over the "MinAmountForTicket".
 								-- If false, Commission will be given for any amount
@@ -87,7 +87,6 @@ Config = {
 	-- No tickets for these, it's just commission (0.25 = 25%)
 	FineJobs = {
 		['police'] = { Commission = 0.25, },
-		['ambulance'] = { Commission = 0.25, },
 	},
 	FineJobConfirmation = false, --"true" makes it so fines need confirmation, "false" skips this ands just removes the money
 	FineJobList = true, -- "true" to use nearby player list feature in the cash registers, "false" for manual id entry
@@ -100,7 +99,7 @@ Config = {
 	BankBlips = false, -- Enable this if you disabled qb-banking and need bank locations
 	ATMBlips = false, -- Enable this if you are a pyscho and need every ATM to be on the map too
 
-	Gabz = false, 	-- "true" to enable Gabz Bank locations
+	Gabz = true, 	-- "true" to enable Gabz Bank locations
 					-- this corrects the ATM/Bank Cashier + Ticket Cash in location
 
 	ATMModels = { `prop_atm_01`, `prop_atm_02`, `prop_atm_03`, `prop_fleeca_atm` },
