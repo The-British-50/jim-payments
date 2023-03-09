@@ -62,16 +62,16 @@ Config = {
 	-- Commission is a percentage eg "0.10" becomes 10%
 	Jobs = {
 		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
-		['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		--['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.25, },
-		['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
-		['henhouse'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		--['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		--['henhouse'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['pizzathis'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
-		['popsdiner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
-		['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		--['popsdiner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		--['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['vanilla'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['mechanic'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, gang = true, }, -- Example of a gang being supported
+		--['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, gang = true, }, -- Example of a gang being supported
 	},
 
 	------------------------------
@@ -94,7 +94,7 @@ Config = {
 	---------------------
 	-- Banking Systems --
 	---------------------
-	useATM = false, -- Enable this to use the scripts ATM's and controls
+	useATM = true, -- Enable this to use the scripts ATM's and controls
 	useBanks = false, -- Enable this to use my banking stuff
 	BankBlips = false, -- Enable this if you disabled qb-banking and need bank locations
 	ATMBlips = false, -- Enable this if you are a pyscho and need every ATM to be on the map too
