@@ -63,6 +63,9 @@ Config = {
 	Jobs = {
 		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['mechanicjonno'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		['yiannimize'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['tuner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['b50visuals'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		--['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.25, },
 		--['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
