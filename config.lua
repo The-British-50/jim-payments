@@ -62,7 +62,8 @@ Config = {
 	-- Commission is a percentage eg "0.10" becomes 10%
 	Jobs = {
 		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
-		['mechanicjonno'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
+		['mechanicjonno'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['mechanicmarc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['yiannimize'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['tuner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['b50visuals'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
