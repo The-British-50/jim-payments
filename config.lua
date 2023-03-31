@@ -70,6 +70,7 @@ Config = {
 		['billiards'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['whitewidow'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['bestbuds'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['recyclejosh'] = {MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		--['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.25, },
 		--['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
