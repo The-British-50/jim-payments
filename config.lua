@@ -73,6 +73,7 @@ Config = {
 		['recyclejosh'] = {MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['upnatom'] = {MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['hornys'] = {MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['triadrecords'] = {MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.05, },
 		--['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
 		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.25, },
 		--['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.25, },
