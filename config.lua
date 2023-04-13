@@ -92,8 +92,6 @@ Config = {
 	-- This adds the ability to add multiple locations for each job
 	-- Basically adding ready made locations, all you need to a vector4 and to confrim if you need a new prop in that location
     CustomCashRegisters = {
-		["billiards"] = { -- Player job role restriction 
-		coords = vector4(-1587.05, -994.3, 13.17, 49.31), prop = true, },
 	},
 
 	-- The /polcharge command requires specific jobs to be set
